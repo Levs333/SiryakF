@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+nav a:hover{
+    color: blanchedalmond;
+    font-size: 17px;
+ }
+   .fixed-ad {
+            position: fixed;
+            top: 10px; 
+            right: 10px; 
+            z-index: 1000; 
+            background-color: white;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            width: 250px; 
+        }
+
+        .fixed-ad img {
+            width: 100%;
+            border-radius: 5px;
+        }
+header{
+    background-color: green
+}
+footer{
+        background-color: green;
+    }
+nav a {
+    color:white;
+    padding: 30px 40px;
+    text-decoration: none;
+
+}
+main img{
+    
+    width:1000px;
+    text-align: centre;
+}
+.button a {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.shop {
+    display: flex;
+    flex-wrap: wrap; /* Дозволяє переносити елементи, якщо не вистачає місця */
+    justify-content: center; /* Центрує товари */
+    gap: 20px; /* Додає відстань між товарами */
+    max-width: 100%; /* Обмежує ширину контейнера */
+    margin: 0 auto; /* Центрує контейнер */
+    padding: 10px; /* Додає трохи відступів */
+}
+
+.imgshop {
+    width: 200px;  
+    height: auto; /* Зберігає пропорції */
+}
+
+.shop p {
+    width: 220px; /* Обмежує ширину картки товару */
+    text-align: center; /* Центрує текст */
+    font-size: 18px;
+}
+
+
+.sss{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.button{
+   position: static;
+} 
+.smol{
+    width:50px;
+}
+footer p{
+    text-align: center;
+}
+
+
+ }
+   .fixed-ad {
+            position: fixed;
+            top: 10px; 
+            right: 10px; 
+            z-index: 1000; 
+            background-color:green ;
+            padding: 10px;
+            box-shadow: 0 0 10px green(0, 0, 0, 0.1);
+            border-radius: 5px;
+            width: 250px; 
+        }
+
+        .fixed-ad img {
+            width: 100%;
+            border-radius: 5px;
+        }
+ 
+
+
